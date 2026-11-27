@@ -1,38 +1,16 @@
 proxies:
 - type: anytls
-  name: 🇭🇰HK香港丨yoyapai.com
-  server: 5641sdds.df6h451rh.xin
-  port: 443
-  password: 0324fbc29561
-  udp: true
-  tls: true
-  servername: images.ctfassets.net
-  sni: images.ctfassets.net
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- type: anytls
-  name: 🇭🇰HK香港丨yoyapai.com (2)
-  server: ibsdsf.df6h451rh.xin
-  port: 443
-  password: 2902c46c8493
-  udp: true
-  tls: true
-  servername: docs.microsoft.com
-  sni: docs.microsoft.com
-  skip-cert-verify: false
-  client-fingerprint: chrome
-- type: anytls
-  name: 🇭🇰HK香港丨yoyapai.com (3)
-  server: ibsdsf.df6h451rh.xin
-  port: 443
-  password: 2902c46c8493
-  udp: true
-  tls: true
-  servername: docs.microsoft.com
-  sni: docs.microsoft.com
-  skip-cert-verify: false
-- type: anytls
   name: 🇹🇼TW台湾丨yoyapai.com
+  server: rtifgjdr.df6h451rh.xin
+  port: 443
+  password: 2902c46c8493
+  udp: true
+  tls: true
+  servername: docs.microsoft.com
+  sni: docs.microsoft.com
+  skip-cert-verify: false
+- type: anytls
+  name: 🇹🇼TW台湾丨yoyapai.com (2)
   server: a54ge.df6h451rh.xin
   port: 443
   password: 0324fbc29561
@@ -42,17 +20,26 @@ proxies:
   sni: docs.microsoft.com
   skip-cert-verify: false
   client-fingerprint: chrome
-- type: ss
-  name: ❓未知丨yoyapai.com
-  server: 47.254.128.109
-  port: 443
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  cipher: 2022-blake3-chacha20-poly1305
-  udp: true
-  tls: false
-  skip-cert-verify: false
 - type: vless
-  name: ❓未知丨yoyapai.com (2)
+  name: 🇨🇦CA加拿大丨yoyapai.com
+  server: 104.17.147.208
+  port: 443
+  uuid: 258ca28a-d982-4a40-b620-7c1c81108060
+  udp: true
+  tls: true
+  servername: b.rack.sxsc.dpdns.org
+  sni: b.rack.sxsc.dpdns.org
+  skip-cert-verify: false
+  alpn:
+  - h3
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: b.rack.sxsc.dpdns.org
+- type: vless
+  name: ❓未知丨yoyapai.com
   server: 104.17.136.102
   port: 2087
   uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
@@ -65,42 +52,18 @@ proxies:
     path: /
     headers:
       Host: rezanoori4295.pages.dev
-- type: vless
+- type: ss
   name: 🇩🇪DE德国丨yoyapai.com
-  server: 2.26.251.236
+  server: 47.254.128.109
   port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
-    short-id: "4ff31b18d1bd8227"
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
   udp: true
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (2)
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (3)
-  server: 202.50.253.45
+  name: ❓未知丨yoyapai.com (2)
+  server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -109,7 +72,16 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: ❓未知丨yoyapai.com (3)
-  server: 202.50.253.36
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (4)
+  server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -117,32 +89,23 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: vless
-  name: 🇬🇧GB英国丨yoyapai.com
-  server: 2.26.251.236
+  name: ❓未知丨yoyapai.com (5)
+  server: api.ferrin.uk
   port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  flow: xtls-rprx-vision
+  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
   udp: true
   tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
+  servername: 7d1a74fd.ferrin.uk
+  sni: 7d1a74fd.ferrin.uk
   skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
-    short-id: "4ff31b18d1bd8227"
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
+    path: /es
+    mode: stream-one
 - type: ss
-  name: ❓未知丨yoyapai.com (4)
+  name: 🇮🇹IT意大利丨yoyapai.com
   server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (5)
-  server: 202.50.253.18
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -159,8 +122,8 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: ❓未知丨yoyapai.com (7)
-  server: 202.50.253.63
+  name: 🇮🇹IT意大利丨yoyapai.com (2)
+  server: 202.50.253.27
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -168,8 +131,26 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (4)
-  server: 202.50.253.63
+  name: 🇩🇪DE德国丨yoyapai.com (2)
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (7)
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (3)
+  server: 202.50.253.90
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -178,7 +159,7 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: ❓未知丨yoyapai.com (8)
-  server: 202.50.253.54
+  server: 202.50.253.63
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -187,31 +168,16 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: ❓未知丨yoyapai.com (9)
-  server: 202.50.253.54
+  server: 202.50.253.99
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   udp: true
   tls: false
   skip-cert-verify: false
-- type: vless
-  name: 🇬🇧GB英国丨yoyapai.com (2)
-  server: 2.26.251.236
-  port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  reality-opts:
-    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
-    short-id: "4ff31b18d1bd8227"
 - type: ss
   name: ❓未知丨yoyapai.com (10)
-  server: 202.50.253.45
+  server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -219,17 +185,8 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: 🇳🇱NL荷兰丨yoyapai.com
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (11)
-  server: 202.50.253.63
+  name: 🇮🇹IT意大利丨yoyapai.com (4)
+  server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -246,17 +203,8 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: ❓未知丨yoyapai.com (12)
-  server: 202.50.253.99
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (13)
-  server: 202.50.253.99
+  name: ❓未知丨yoyapai.com (11)
+  server: 202.50.253.36
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -273,8 +221,17 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (7)
-  server: 202.50.253.81
+  name: ❓未知丨yoyapai.com (12)
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (13)
+  server: 202.50.253.18
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -283,7 +240,16 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: ❓未知丨yoyapai.com (14)
-  server: 202.50.253.72
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (7)
+  server: 202.50.253.90
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -300,7 +266,7 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: ❓未知丨yoyapai.com (16)
+  name: 🇩🇪DE德国丨yoyapai.com (3)
   server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -309,8 +275,35 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (8)
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇳🇿NZ新西兰丨yoyapai.com
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (16)
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
   name: ❓未知丨yoyapai.com (17)
-  server: 202.50.253.90
+  server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -319,6 +312,15 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: ❓未知丨yoyapai.com (18)
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (9)
   server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -328,7 +330,16 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: ❓未知丨yoyapai.com (19)
-  server: 202.50.253.45
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇳🇱NL荷兰丨yoyapai.com
+  server: 202.50.253.63
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -346,16 +357,7 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: ❓未知丨yoyapai.com (21)
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (8)
-  server: 202.50.253.99
+  server: 202.50.253.45
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -364,15 +366,6 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: ❓未知丨yoyapai.com (22)
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (9)
   server: 202.50.253.99
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -390,103 +383,7 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: ❓未知丨yoyapai.com (23)
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
   name: 🇮🇹IT意大利丨yoyapai.com (11)
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: vless
-  name: 🇩🇪DE德国丨yoyapai.com (2)
-  server: 2.26.251.236
-  port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
-  skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
-    short-id: "4ff31b18d1bd8227"
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (12)
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (13)
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (14)
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (15)
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (24)
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇩🇪DE德国丨yoyapai.com (3)
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (25)
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (16)
   server: 202.50.253.90
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -495,25 +392,7 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: ❓未知丨yoyapai.com (26)
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (27)
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (28)
+  name: ❓未知丨yoyapai.com (23)
   server: 202.50.253.81
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -522,35 +401,8 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (17)
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇳🇿NZ新西兰丨yoyapai.com
+  name: 🇮🇹IT意大利丨yoyapai.com (12)
   server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (29)
-  server: 202.50.253.36
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: ❓未知丨yoyapai.com (30)
-  server: 202.50.253.18
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -567,16 +419,7 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: ❓未知丨yoyapai.com (31)
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (18)
+  name: ❓未知丨yoyapai.com (24)
   server: 202.50.253.90
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -585,7 +428,115 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (19)
+  name: 🇮🇹IT意大利丨yoyapai.com (13)
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (14)
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (25)
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (26)
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (27)
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (15)
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (28)
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (29)
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (16)
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (17)
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (30)
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (18)
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: ❓未知丨yoyapai.com (31)
   server: 202.50.253.36
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -604,7 +555,7 @@ proxies:
   skip-cert-verify: false
 - type: ss
   name: ❓未知丨yoyapai.com (33)
-  server: 202.50.253.27
+  server: 202.50.253.36
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
@@ -621,29 +572,11 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (20)
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇮🇹IT意大利丨yoyapai.com (21)
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  udp: true
-  tls: false
-  skip-cert-verify: false
-- type: ss
-  name: 🇩🇪DE德国丨yoyapai.com (5)
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
+  name: ❓未知丨yoyapai.com (35)
+  server: 47.254.128.109
+  port: 443
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  cipher: 2022-blake3-chacha20-poly1305
   udp: true
   tls: false
   skip-cert-verify: false
@@ -665,21 +598,33 @@ proxies:
   xhttp-opts:
     path: /d20896a4ce30
     mode: auto
-- type: vless
-  name: 🇬🇧GB英国丨yoyapai.com (3)
-  server: 2.26.251.236
-  port: 443
-  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
-  flow: xtls-rprx-vision
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (19)
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
   udp: true
-  tls: true
-  servername: mental-deprivation.ru
-  sni: mental-deprivation.ru
+  tls: false
   skip-cert-verify: false
-  client-fingerprint: firefox
-  reality-opts:
-    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
-    short-id: "4ff31b18d1bd8227"
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (20)
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 🇮🇹IT意大利丨yoyapai.com (21)
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
 - type: vless
   name: FR法國丨yoyapai.com
   server: yx.cloudflare.182682.xyz
@@ -771,7 +716,7 @@ proxies:
   ws-opts:
     path: /assignment
 - type: trojan
-  name: ❓未知丨yoyapai.com (35)
+  name: ❓未知丨yoyapai.com (36)
   server: 104.18.152.108
   port: 443
   password: humanity
@@ -812,7 +757,7 @@ proxies:
   ws-opts:
     path: /assignment
 - type: vless
-  name: 🇩🇪DE德国丨yoyapai.com (6)
+  name: 🇩🇪DE德国丨yoyapai.com (5)
   server: 217.60.68.196
   port: 443
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
@@ -827,7 +772,7 @@ proxies:
     public-key: "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI"
     short-id: "00bca5982f82d083"
 - type: vless
-  name: 🇩🇪DE德国丨yoyapai.com (7)
+  name: 🇩🇪DE德国丨yoyapai.com (6)
   server: 217.60.68.196
   port: 443
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
@@ -905,7 +850,7 @@ proxies:
     host: frfx.pafaktalaei.ir
     mode: auto
 - type: vless
-  name: ❓未知丨yoyapai.com (36)
+  name: ❓未知丨yoyapai.com (37)
   server: dey.lnmarketplace.net
   port: 443
   uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
@@ -1129,7 +1074,7 @@ proxies:
     headers:
       Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
 - type: vless
-  name: 🇭🇰HK香港丨yoyapai.com (4)
+  name: 🇭🇰HK香港丨yoyapai.com
   server: 91.193.58.209
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -1142,7 +1087,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
 - type: vless
-  name: 🇭🇰HK香港丨yoyapai.com (5)
+  name: 🇭🇰HK香港丨yoyapai.com (2)
   server: 91.193.58.197
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -1155,7 +1100,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
 - type: vless
-  name: 🇭🇰HK香港丨yoyapai.com (6)
+  name: 🇭🇰HK香港丨yoyapai.com (3)
   server: 91.193.58.179
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -1583,7 +1528,7 @@ proxies:
     headers:
       Host: holy-breeze-0bac.47-dec.workers.dev
 - type: vless
-  name: ❓未知丨yoyapai.com (37)
+  name: ❓未知丨yoyapai.com (38)
   server: 91.206.71.8
   port: 80
   uuid: c20a0bcf-aa6f-4c35-9e62-a39b47b04e73
@@ -1636,7 +1581,7 @@ proxies:
     headers:
       Host: round-haze-8783.294.workers.dev
 - type: vless
-  name: ❓未知丨yoyapai.com (38)
+  name: ❓未知丨yoyapai.com (39)
   server: 108.162.198.178
   port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
@@ -1731,7 +1676,7 @@ proxies:
     headers:
       Host: d7pu5mzr9c4b0.cloudfront.net
 - type: vless
-  name: ❓未知丨yoyapai.com (39)
+  name: ❓未知丨yoyapai.com (40)
   server: 199.232.78.120
   port: 443
   uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
@@ -1746,20 +1691,35 @@ proxies:
     headers:
       Host: fraboijji.global.ssl.fastly.net.
 - type: vless
-  name: ❓未知丨yoyapai.com (40)
-  server: 201.4.73.21
+  name: 🇬🇧GB英国丨yoyapai.com
+  server: 2.26.251.236
   port: 443
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
   flow: xtls-rprx-vision
   udp: true
   tls: true
-  servername: granite-orchard.cdn.cachefleet.com
-  sni: granite-orchard.cdn.cachefleet.com
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
+    short-id: "4ff31b18d1bd8227"
+- type: vless
+  name: 🇬🇧GB英国丨yoyapai.com (2)
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
   skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
-    public-key: "ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE"
-    short-id: "8691df964f0bebcb"
+    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
+    short-id: "4ff31b18d1bd8227"
 - type: vless
   name: ❓未知丨yoyapai.com (41)
   server: 201.4.73.21
@@ -1771,7 +1731,7 @@ proxies:
   servername: granite-orchard.cdn.cachefleet.com
   sni: granite-orchard.cdn.cachefleet.com
   skip-cert-verify: false
-  client-fingerprint: firefox
+  client-fingerprint: chrome
   reality-opts:
     public-key: "ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE"
     short-id: "8691df964f0bebcb"
@@ -1786,10 +1746,55 @@ proxies:
   servername: granite-orchard.cdn.cachefleet.com
   sni: granite-orchard.cdn.cachefleet.com
   skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE"
+    short-id: "8691df964f0bebcb"
+- type: vless
+  name: ❓未知丨yoyapai.com (43)
+  server: 201.4.73.21
+  port: 443
+  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: granite-orchard.cdn.cachefleet.com
+  sni: granite-orchard.cdn.cachefleet.com
+  skip-cert-verify: false
   client-fingerprint: chrome
   reality-opts:
     public-key: "ql7l6Vw5DFt5ZJeGE6ZxsM1kcIvZabxQVr8zkoPJoUE"
     short-id: "8691df964f0bebcb"
+- type: vless
+  name: 🇬🇧GB英国丨yoyapai.com (3)
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
+    short-id: "4ff31b18d1bd8227"
+- type: vless
+  name: 🇩🇪DE德国丨yoyapai.com (7)
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
+    short-id: "4ff31b18d1bd8227"
 - type: vless
   name: 🇪🇪EE爱沙尼亚丨yoyapai.com (2)
   server: fr5.wizard.select
@@ -2011,7 +2016,7 @@ proxies:
     headers:
       Host: notls.lukongtou.eu.org
 - type: vless
-  name: 🇭🇰HK香港丨yoyapai.com (7)
+  name: 🇭🇰HK香港丨yoyapai.com (4)
   server: 91.193.58.243
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -2024,7 +2029,7 @@ proxies:
     headers:
       Host: twilight-poetry-2bfe.218-699.workers.dev
 - type: vless
-  name: 🇭🇰HK香港丨yoyapai.com (8)
+  name: 🇭🇰HK香港丨yoyapai.com (5)
   server: 91.193.58.246
   port: 80
   uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
@@ -2217,7 +2222,7 @@ proxies:
     path: /api/v1/events
     mode: auto
 - type: trojan
-  name: 🇨🇦CA加拿大丨yoyapai.com
+  name: 🇨🇦CA加拿大丨yoyapai.com (2)
   server: 104.18.152.208
   port: 443
   password: humanity
@@ -2276,7 +2281,7 @@ proxies:
     public-key: "TgaE-83sqLrJ6auwPP2Nq7vDO_xuFqa6uMnG4Au18jg"
     short-id: "82"
 - type: trojan
-  name: 🇨🇦CA加拿大丨yoyapai.com (2)
+  name: 🇨🇦CA加拿大丨yoyapai.com (3)
   server: 104.18.152.133
   port: 443
   password: humanity
@@ -2359,7 +2364,7 @@ proxies:
     headers:
       Host: spring-sound-8d8e.36-9ff.workers.dev
 - type: vless
-  name: 🇭🇰HK香港丨yoyapai.com (9)
+  name: 🇭🇰HK香港丨yoyapai.com (6)
   server: 27.44.143.169
   port: 14343
   uuid: 1b60cff4-49ce-4bf3-9027-e4f9c47d6158
@@ -2437,7 +2442,7 @@ proxies:
     headers:
       Host: server15.9966338.xyz
 - type: vless
-  name: ❓未知丨yoyapai.com (43)
+  name: ❓未知丨yoyapai.com (44)
   server: edge-d6d4b0609348.eu-cdn391.com
   port: 443
   uuid: e75ad2eb-6c1f-45ce-8023-f5f10875df66
@@ -2476,21 +2481,6 @@ proxies:
   tls: false
   skip-cert-verify: false
 - type: vless
-  name: ❓未知丨yoyapai.com (44)
-  server: api.ferrin.uk
-  port: 443
-  uuid: 7d1a74fd-8a38-4a29-863f-5da53a9e557e
-  udp: true
-  tls: true
-  servername: 7d1a74fd.ferrin.uk
-  sni: 7d1a74fd.ferrin.uk
-  skip-cert-verify: false
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /es
-    mode: stream-one
-- type: vless
   name: ❓未知丨yoyapai.com (45)
   server: 80.96.108.29
   port: 8443
@@ -2509,6 +2499,21 @@ proxies:
     mode: auto
 - type: vless
   name: 🇩🇪DE德国丨yoyapai.com (9)
+  server: 2.26.251.236
+  port: 443
+  uuid: c16e8cdb-65dd-4049-bc65-14c051b8a6c6
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: mental-deprivation.ru
+  sni: mental-deprivation.ru
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "1iVMMhJZgXHRY7tRlR-1kypF0YeaBcB7EjcfHRsYZX4"
+    short-id: "4ff31b18d1bd8227"
+- type: vless
+  name: 🇩🇪DE德国丨yoyapai.com (10)
   server: base.hosamobenl.co.uk
   port: 443
   uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
@@ -2613,7 +2618,7 @@ proxies:
     public-key: "VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA"
     short-id: "8d0d0679f42ffd98"
 - type: vless
-  name: 🇨🇦CA加拿大丨yoyapai.com (3)
+  name: 🇨🇦CA加拿大丨yoyapai.com (4)
   server: 104.21.70.21
   port: 8080
   uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
@@ -2711,7 +2716,7 @@ proxies:
     path: /
     mode: auto
 - type: trojan
-  name: 🇭🇰HK香港丨yoyapai.com (10)
+  name: 🇭🇰HK香港丨yoyapai.com (7)
   server: sclass-00.catcat321.com
   port: 20103
   password: d9064589-74af-432a-9390-5d8a9da281bf
@@ -2720,6 +2725,38 @@ proxies:
   servername: hk.catxstar.com
   sni: hk.catxstar.com
   skip-cert-verify: false
+- type: anytls
+  name: 🇭🇰HK香港丨yoyapai.com (8)
+  server: 5641sdds.df6h451rh.xin
+  port: 443
+  password: 0324fbc29561
+  udp: true
+  tls: true
+  servername: images.ctfassets.net
+  sni: images.ctfassets.net
+  skip-cert-verify: false
+  client-fingerprint: chrome
+- type: anytls
+  name: 🇭🇰HK香港丨yoyapai.com (9)
+  server: ibsdsf.df6h451rh.xin
+  port: 443
+  password: 2902c46c8493
+  udp: true
+  tls: true
+  servername: docs.microsoft.com
+  sni: docs.microsoft.com
+  skip-cert-verify: false
+- type: anytls
+  name: 🇭🇰HK香港丨yoyapai.com (10)
+  server: ibsdsf.df6h451rh.xin
+  port: 443
+  password: 2902c46c8493
+  udp: true
+  tls: true
+  servername: docs.microsoft.com
+  sni: docs.microsoft.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
 - type: vless
   name: US美国(mibei77.com 米贝节点分享)
   server: 104.16.243.122
@@ -6152,6 +6189,1904 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 7d5abcd7d8a1
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享)_3
+  server: 83.141.92.168
+  port: 443
+  uuid: a7595994-695d-484e-bfcb-e9fbb73cfa39
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: sladovna.russianpiwo.fun
+  sni: sladovna.russianpiwo.fun
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: "kpQWnVk3fEJXfPGFsMerUoPV_ZqUJUJFRnF1FvKyhRY"
+    short-id: "7a7d19880a9ee786"
+- type: ss
+  name: US美国(mibei77.com 米贝节点分享) (2)_3
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: US美国(mibei77.com 米贝节点分享) (3)_3
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: US美国(mibei77.com 米贝节点分享) (4)_3
+  server: 202.50.253.72
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: US美国(mibei77.com 米贝节点分享) (5)_3
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (6)_3
+  server: 162.35.101.177
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 0592efg.us8.h1clayd.click
+  sni: 0592efg.us8.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: edge
+  reality-opts:
+    public-key: "cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk"
+    short-id: "bd8f712209a9c283"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 99f2107b03f8
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (7)_3
+  server: 104.17.136.102
+  port: 2087
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  udp: true
+  tls: true
+  servername: rezanoori4295.pages.dev
+  sni: rezanoori4295.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+- type: ss
+  name: US美国(mibei77.com 米贝节点分享) (8)_3
+  server: 202.50.253.18
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (9)_3
+  server: saas.sin.fan
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  udp: true
+  tls: true
+  servername: v2n6.11676767.xyz
+  sni: v2n6.11676767.xyz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ranking/htm
+    headers:
+      Host: v2n6.11676767.xyz
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (10)_3
+  server: 196.196.148.76
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: 8a2e72t.nl20.h1clayd.shop
+  sni: 8a2e72t.nl20.h1clayd.shop
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA"
+    short-id: "8d0d0679f42ffd98"
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (11)_3
+  server: a80b5386.fi2.h1clayd.click
+  port: 443
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+  udp: true
+  tls: true
+  servername: a80b5386.fi2.h1clayd.click
+  sni: a80b5386.fi2.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc"
+    short-id: "cc678f10161992a9"
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (12)_3
+  server: a80b5386.fi2.h1clayd.click
+  port: 443
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+  udp: true
+  tls: true
+  servername: a80b5386.fi2.h1clayd.click
+  sni: a80b5386.fi2.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc"
+    short-id: "cc678f10161992a9"
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (13)_3
+  server: 8.35.211.73
+  port: 2087
+  uuid: 9f534ac4-3c58-4a16-8b74-13dff09a0cf1
+  udp: true
+  tls: true
+  servername: d39333476.pages.dev
+  sni: d39333476.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /resource
+    headers:
+      Host: d39333476.pages.dev
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (14)_3
+  server: 8.47.69.6
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  servername: newwk1.f1w.de5.net
+  sni: newwk1.f1w.de5.net
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: newwk1.f1w.de5.net
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (15)_3
+  server: 104.17.136.102
+  port: 2087
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  udp: true
+  tls: true
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rezanoori4295.pages.dev
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (16)_3
+  server: 181.36.229.212
+  port: 443
+  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+  udp: true
+  tls: true
+  servername: 1.proxy2.us.ci.
+  sni: 1.proxy2.us.ci.
+  skip-cert-verify: false
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: 1.proxy2.us.ci.
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (17)_3
+  server: 104.18.153.10
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  sni: jp3.yohototo.top
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (18)_3
+  server: xray-dmr3b3hy-calm-maple-7.cloady.io
+  port: 443
+  uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
+  udp: true
+  tls: true
+  servername: xray-dmr3b3hy-calm-maple-7.cloady.io
+  sni: xray-dmr3b3hy-calm-maple-7.cloady.io
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /0175469f14317d82
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (19)_3
+  server: 104.18.3.64
+  port: 443
+  uuid: 85161972-fbc0-4c64-b350-bcc41a9ee4da
+  udp: true
+  tls: true
+  servername: a1258.kmgikch.com
+  sni: a1258.kmgikch.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 36e4614ce460f1105d274cc254cb721aad9b108d
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (20)_3
+  server: 104.18.12.225
+  port: 443
+  uuid: e9db00d0-e30d-4e42-ac13-815c95374fa1
+  udp: true
+  tls: true
+  servername: a1178.o7c4pzv.com
+  sni: a1178.o7c4pzv.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f0790a536033e1e4d0fa15ef7be34f06
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (21)_3
+  server: 104.18.3.64
+  port: 443
+  uuid: 96f4dd70-066c-4788-962d-d74761ca38cc
+  udp: true
+  tls: true
+  servername: a1149.yanbckh.biz
+  sni: a1149.yanbckh.biz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc_c274a5723f947b6b861df43c
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (22)_3
+  server: 104.18.3.64
+  port: 443
+  uuid: 2f60f0a0-b3ee-487b-a796-5029932c9cd0
+  udp: true
+  tls: true
+  servername: a1142.yanbckh.biz
+  sni: a1142.yanbckh.biz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc_08b4a2d2461731a70eb01bf2
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (23)_3
+  server: 104.18.3.64
+  port: 443
+  uuid: 5d3048ae-a31f-45f9-9313-87a93bdc0a3f
+  udp: true
+  tls: true
+  servername: a1254.bmkznx6.com
+  sni: a1254.bmkznx6.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f0d0ff829dc5cf43b3294aa3000e60c044d8fc3d
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (24)_3
+  server: 104.18.125.108
+  port: 8443
+  uuid: 63daab7f-4ae1-4d19-af87-d2f515dd8e6a
+  udp: true
+  tls: true
+  servername: a1038.o7c4pzv.com
+  sni: a1038.o7c4pzv.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 027d3bb2e0c1cbe6d75214da2ded03f8
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (25)_3
+  server: 104.18.12.225
+  port: 2087
+  uuid: c6771b7c-2ea6-4ced-afb5-f135cf2fd585
+  udp: true
+  tls: true
+  servername: a1040.o7c4pzv.com
+  sni: a1040.o7c4pzv.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: fec91ad0c3dfc86bfc78ba69892385f9
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (26)_3
+  server: 104.18.12.225
+  port: 443
+  uuid: 48bec683-7bcf-44e9-9abb-4d287fd1c752
+  udp: true
+  tls: true
+  servername: a1015.afl7t8f.com
+  sni: a1015.afl7t8f.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: f90349a7ff1fc988bf3f07654ba096e4
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (27)_3
+  server: 104.16.119.58
+  port: 443
+  uuid: e2480514-5bb7-4ca8-b8cd-727f261b3db0
+  udp: true
+  tls: true
+  servername: a1275.ve8nzuk.com
+  sni: a1275.ve8nzuk.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: e494515feb1b2f31a3f17d429354949a574fbeee
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (28)_3
+  server: 104.18.3.64
+  port: 443
+  uuid: 74d4f00b-df30-4015-8223-e2ba5e67a196
+  udp: true
+  tls: true
+  servername: a1148.yanbckh.biz
+  sni: a1148.yanbckh.biz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc_c8b2f1197faf56e42ce4f63d
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (29)_3
+  server: 104.18.41.183
+  port: 8443
+  uuid: 3a8739a5-468b-4980-ae9f-1d2407f80a59
+  udp: true
+  tls: true
+  servername: a1076.yanbckh.biz
+  sni: a1076.yanbckh.biz
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 76b4f807ac647f03846294e62beb5c98
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (30)_3
+  server: 104.16.119.58
+  port: 443
+  uuid: b2d54357-fe85-4ffb-bdc8-2b73f04c4029
+  udp: true
+  tls: true
+  servername: a1110.afl7t8f.com
+  sni: a1110.afl7t8f.com
+  skip-cert-verify: false
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 644cd9e3b3970690ff1538cebf3acc84c2063cf7
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (31)_3
+  server: 104.18.12.225
+  port: 443
+  uuid: e359a619-0ba6-495b-97f1-746475c8e215
+  udp: true
+  tls: true
+  servername: a1078.o7c4pzv.com
+  sni: a1078.o7c4pzv.com
+  skip-cert-verify: false
+  alpn:
+  - h2
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: zp1078grpc
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (32)_3
+  server: 104.16.119.58
+  port: 8443
+  uuid: f9c4c29f-b018-431b-b9c8-444b59fffe8f
+  udp: true
+  tls: true
+  servername: a1029.afl7t8f.com
+  sni: a1029.afl7t8f.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: c42d2c062a57c167e74311affb748902
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (33)_2
+  server: 104.18.125.108
+  port: 443
+  uuid: c0f5dd4d-8277-4eef-b27d-b211b57676f5
+  udp: true
+  tls: true
+  servername: a1009.o7c4pzv.com
+  sni: a1009.o7c4pzv.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 379cd04d96e32feabac5ed197fa65d7b
+- type: vless
+  name: US美国(mibei77.com 米贝节点分享) (34)_2
+  server: cloudflare.seeck.cn
+  port: 443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-xfcyh2.pages.dev
+  sni: senflarelink-node-xfcyh2.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-xfcyh2.pages.dev
+- type: vless
+  name: TW台湾(mibei77.com 米贝节点分享)_3
+  server: free.fugui.lol
+  port: 19482
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: swdist.apple.com
+  sni: swdist.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ"
+    short-id: "fa514b83"
+- type: vless
+  name: TW台湾(mibei77.com 米贝节点分享) (2)_2
+  server: free.fugui.lol
+  port: 51283
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: swdist.apple.com
+  sni: swdist.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ"
+    short-id: "fa514b83"
+- type: vless
+  name: TW台湾(mibei77.com 米贝节点分享) (3)_2
+  server: free.fugui.lol
+  port: 19482
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: swdist.apple.com
+  sni: swdist.apple.com
+  skip-cert-verify: false
+  client-fingerprint: ios
+  reality-opts:
+    public-key: "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ"
+    short-id: "fa514b83"
+- type: vless
+  name: TW台湾(mibei77.com 米贝节点分享) (4)_2
+  server: free.fugui.lol
+  port: 47396
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: swdist.apple.com
+  sni: swdist.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ"
+    short-id: "fa514b83"
+- type: vless
+  name: TW台湾(mibei77.com 米贝节点分享) (5)_2
+  server: free.fugui.lol
+  port: 47396
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: swdist.apple.com
+  sni: swdist.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ"
+    short-id: "fa514b83"
+- type: vless
+  name: TW台湾(mibei77.com 米贝节点分享) (6)_2
+  server: free.fugui.lol
+  port: 51283
+  uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: swdist.apple.com
+  sni: swdist.apple.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: "IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ"
+    short-id: "fa514b83"
+- type: vless
+  name: SG新加坡(mibei77.com 米贝节点分享)_3
+  server: 43.170.8.95
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  sni: jp3.yohototo.top
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- type: vless
+  name: SG新加坡(mibei77.com 米贝节点分享) (2)_3
+  server: 43.163.112.174
+  port: 443
+  uuid: 0dedd47d-47b9-4ed1-9c9f-cbeecad57a68
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  sni: www.cloudflare.com
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: "mXQudYHNu0pebcdk1_qn-UgcmwhjaV7y9UrYu3HX7Rg"
+    short-id: "0123456789abcdef"
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享)_3
+  server: 136.148.83.70
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: aszbk-ru-78dc.my-fade.cloud
+  sni: aszbk-ru-78dc.my-fade.cloud
+  skip-cert-verify: false
+  client-fingerprint: qq
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (2)_3
+  server: 178.248.236.229
+  port: 443
+  uuid: a71d6c6d-c95e-4ec1-a892-22e21733bf09
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: 144.hexdey.com
+  sni: 144.hexdey.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "_3mkK8SY6YVqws73SUVPKL77tzxDVNUt4ag9J9ec-D0"
+    short-id: "d05a120d3506d2cc"
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (3)_3
+  server: 136.148.83.71
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: wccfu-ru-79dc.my-fade.cloud
+  sni: wccfu-ru-79dc.my-fade.cloud
+  skip-cert-verify: false
+  client-fingerprint: qq
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (4)_3
+  server: 213.183.45.23
+  port: 8454
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  udp: true
+  tls: true
+  servername: store.plumstatic.com
+  sni: store.plumstatic.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /ws
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (5)_3
+  server: 213.183.45.23
+  port: 8454
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  udp: true
+  tls: true
+  servername: store.plumstatic.com
+  sni: store.plumstatic.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (6)_3
+  server: 136.148.83.71
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: wccfu-ru-79dc.my-fade.cloud
+  sni: wccfu-ru-79dc.my-fade.cloud
+  skip-cert-verify: false
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (7)_2
+  server: 136.148.83.70
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: aszbk-ru-78dc.my-fade.cloud
+  sni: aszbk-ru-78dc.my-fade.cloud
+  skip-cert-verify: false
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (8)_2
+  server: 213.183.45.23
+  port: 8444
+  uuid: eb62cabf-5901-403a-aa0c-b1d9ed1b346d
+  udp: true
+  tls: true
+  servername: media.plumstatic.com
+  sni: media.plumstatic.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (9)_2
+  server: 103.88.241.220
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: ruhongmicro2.gangplatform.com
+  sni: ruhongmicro2.gangplatform.com
+  skip-cert-verify: false
+  client-fingerprint: qq
+  reality-opts:
+    public-key: "u9GnN8KGzfV0xQj6R8Ydp1nvY4exEWlTIcIbA27N0Wo"
+    short-id: "bad10ef561d2e2a1"
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (10)_2
+  server: 45.150.37.169
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: rumicro641.richhoodfoc.com
+  sni: rumicro641.richhoodfoc.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "2GYWewnpSKVqp2AXm1hEZ-av8iApLPa62V7rxpxt1SE"
+    short-id: "b9bb317e9c9e2627"
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (11)_2
+  server: 84.54.44.117
+  port: 443
+  uuid: 9df9ee1a-0671-4c6c-93c7-65598fb946f7
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: rumicro642.richhoodfoc.com
+  sni: rumicro642.richhoodfoc.com
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "fPvZxeP0GErdI22fbEAqbMaz-QMumNIDzBNgKZmRsWY"
+    short-id: "a7b12f3265f97f4a"
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (12)_2
+  server: xray-ikmqcro3-rapid-river-6.cloady.io
+  port: 443
+  uuid: 213224a4-6cd1-b7f4-8bbc-4f50e5ed847b
+  udp: true
+  tls: true
+  servername: xray-ikmqcro3-rapid-river-6.cloady.io
+  sni: xray-ikmqcro3-rapid-river-6.cloady.io
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /c54a815e676d9acc
+- type: vless
+  name: RU俄罗斯(mibei77.com 米贝节点分享) (13)_2
+  server: 179.255.137.204
+  port: 8443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-xfcyh2.pages.dev
+  sni: senflarelink-node-xfcyh2.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-xfcyh2.pages.dev
+- type: vless
+  name: NL荷兰(mibei77.com 米贝节点分享)_3
+  server: 188.164.248.110
+  port: 443
+  uuid: 13134515-adc7-404b-8d2a-f9ad99e8dcbd
+  udp: true
+  tls: true
+  servername: imanvipreserved.pages.dev
+  sni: imanvipreserved.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: imanvipreserved.pages.dev
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享)
+  server: 8.211.129.80
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (2)
+  server: 8.211.154.126
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (3)
+  server: 8.216.10.204
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (4)
+  server: 8.216.0.168
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (5)
+  server: 8.216.15.55
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (6)
+  server: 8.216.3.83
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (7)
+  server: 8.216.14.14
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (8)
+  server: 8.216.1.127
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (9)
+  server: 8.216.8.0
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (10)
+  server: 8.216.9.217
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (11)
+  server: 8.209.249.190
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (12)
+  server: 47.245.54.15
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (13)
+  server: 8.216.8.135
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (14)
+  server: 8.216.15.46
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (15)
+  server: 8.211.131.30
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (16)
+  server: 8.216.9.41
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (17)
+  server: 8.216.8.176
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (18)
+  server: 8.216.16.98
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (19)
+  server: 8.216.17.19
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (20)
+  server: 8.216.9.142
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (21)
+  server: 8.216.9.151
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (22)
+  server: 8.211.128.146
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (23)
+  server: 8.216.9.15
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (24)
+  server: 47.245.32.129
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (25)
+  server: 8.209.196.11
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (26)
+  server: 8.216.9.154
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (27)
+  server: 8.216.5.89
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (28)
+  server: 8.209.245.25
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (29)
+  server: 8.216.8.84
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (30)
+  server: 47.74.24.29
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (31)
+  server: 8.216.17.189
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (32)
+  server: 47.74.18.249
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (33)
+  server: 8.209.197.190
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (34)
+  server: 8.216.4.146
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (35)
+  server: 8.209.196.228
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (36)
+  server: 8.209.253.213
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (37)
+  server: 47.91.15.111
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (38)
+  server: 8.216.16.102
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (39)
+  server: 8.216.18.173
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (40)
+  server: 47.74.0.207
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (41)
+  server: 8.216.3.160
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (42)
+  server: 47.245.42.226
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (43)
+  server: 8.209.221.183
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (44)
+  server: 8.216.6.19
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (45)
+  server: 47.245.63.105
+  port: 6666
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (46)
+  server: 8.216.18.167
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (47)
+  server: 8.209.199.75
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (48)
+  server: 8.209.236.164
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (49)
+  server: 8.216.9.190
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (50)
+  server: 8.209.236.2
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (51)
+  server: 8.216.9.42
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (52)
+  server: 8.209.249.205
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (53)
+  server: 47.245.40.193
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (54)
+  server: 47.74.41.139
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (55)
+  server: 47.74.27.11
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (56)
+  server: 8.216.18.139
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (57)
+  server: 8.209.221.90
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (58)
+  server: 8.209.222.150
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (59)
+  server: 8.209.198.176
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (60)
+  server: 8.216.17.86
+  port: 6666
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (61)
+  server: 8.216.5.230
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (62)
+  server: 47.74.9.21
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (63)
+  server: 47.74.49.154
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (64)
+  server: 47.91.31.150
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (65)
+  server: 8.211.130.59
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (66)
+  server: 47.91.18.202
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (67)
+  server: 8.216.11.25
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (68)
+  server: 8.211.174.191
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (69)
+  server: 47.91.16.50
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (70)
+  server: 47.74.40.77
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (71)
+  server: 47.91.15.175
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (72)
+  server: 8.211.132.94
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (73)
+  server: 8.216.18.189
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (74)
+  server: 47.91.2.13
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (75)
+  server: 47.74.17.125
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (76)
+  server: 8.216.18.170
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (77)
+  server: 8.216.8.185
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (78)
+  server: 8.216.17.52
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (79)
+  server: 47.91.29.60
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (80)
+  server: 47.74.40.243
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (81)
+  server: 8.216.14.94
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (82)
+  server: 8.216.15.30
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (83)
+  server: 8.211.174.60
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (84)
+  server: 8.216.6.223
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (85)
+  server: 8.216.19.169
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: JP日本(mibei77.com 米贝节点分享) (86)
+  server: 8.216.4.158
+  port: 5555
+  password: '123456'
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: vless
+  name: IN印度(mibei77.com 米贝节点分享)_3
+  server: xray-dmr3b3hy-calm-maple-7.cloady.io
+  port: 443
+  uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
+  udp: true
+  tls: true
+  servername: xray-dmr3b3hy-calm-maple-7.cloady.io
+  sni: xray-dmr3b3hy-calm-maple-7.cloady.io
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /0175469f14317d82
+- type: vless
+  name: HK香港(mibei77.com 米贝节点分享)_3
+  server: 170.168.32.125
+  port: 443
+  uuid: 148917bd-0b37-42b8-98f4-aa94ca73e75a
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: travel.yandex.ru
+  sni: travel.yandex.ru
+  skip-cert-verify: false
+  reality-opts:
+    public-key: "tp7awfnKLbhIDkdYlT7Avf-SfUwt7ncX5oyWS5wQmR0"
+    short-id: "6d"
+- type: vless
+  name: GB英国(mibei77.com 米贝节点分享)_3
+  server: 136.148.83.70
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: aszbk-ru-78dc.my-fade.cloud
+  sni: aszbk-ru-78dc.my-fade.cloud
+  skip-cert-verify: false
+  client-fingerprint: qq
+- type: vless
+  name: GB英国(mibei77.com 米贝节点分享) (2)_3
+  server: 136.148.83.71
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
+  udp: true
+  tls: true
+  servername: wccfu-ru-79dc.my-fade.cloud
+  sni: wccfu-ru-79dc.my-fade.cloud
+  skip-cert-verify: false
+  client-fingerprint: qq
+- type: vless
+  name: GB英国(mibei77.com 米贝节点分享) (3)_3
+  server: 178.104.77.229
+  port: 8443
+  uuid: b69cf773-da16-486e-afce-a45b94f998b3
+  udp: true
+  tls: true
+  servername: senflarelink-node-m3bfbn.pages.dev
+  sni: senflarelink-node-m3bfbn.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: senflarelink-node-m3bfbn.pages.dev
+- type: vless
+  name: DE德国(mibei77.com 米贝节点分享)_3
+  server: 13.141.36.15
+  port: 443
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+  udp: true
+  tls: true
+  servername: a80b5386.fi2.h1clayd.click
+  sni: a80b5386.fi2.h1clayd.click
+  skip-cert-verify: false
+  reality-opts:
+    public-key: "PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc"
+    short-id: "cc678f10161992a9"
+- type: vless
+  name: DE德国(mibei77.com 米贝节点分享) (2)_3
+  server: 104.18.42.98
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  sni: jp3.yohototo.top
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- type: vless
+  name: DE德国(mibei77.com 米贝节点分享) (3)_3
+  server: a80b5386.fi2.h1clayd.click
+  port: 443
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+  udp: true
+  tls: true
+  servername: a80b5386.fi2.h1clayd.click
+  sni: a80b5386.fi2.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc"
+    short-id: "cc678f10161992a9"
+- type: vless
+  name: DE德国(mibei77.com 米贝节点分享) (4)_3
+  server: 153.56.231.73
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 717252g.nl8.h1clayd.click
+  sni: 717252g.nl8.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU"
+    short-id: "d3bd772514c87d28"
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 204adda7e3da
+- type: vless
+  name: DE德国(mibei77.com 米贝节点分享) (5)_3
+  server: 13.141.36.15
+  port: 443
+  uuid: 2ccb06b6-9eac-44eb-ade7-c1e5afb8e7df
+  udp: true
+  tls: true
+  servername: a80b5386.fi2.h1clayd.click
+  sni: a80b5386.fi2.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "PslSaSQWP4BZZmkL7irab4FMti8sW6BvoC7ytFjJFyc"
+    short-id: "cc678f10161992a9"
+- type: vless
+  name: CA加拿大(mibei77.com 米贝节点分享)_3
+  server: 172.64.149.88
+  port: 443
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  udp: true
+  tls: true
+  servername: top-e4s.pages.dev
+  sni: top-e4s.pages.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: top-e4s.pages.dev
+- type: vless
+  name: CA加拿大(mibei77.com 米贝节点分享) (2)_3
+  server: 104.17.147.208
+  port: 443
+  uuid: 258ca28a-d982-4a40-b620-7c1c81108060
+  udp: true
+  tls: true
+  servername: b.rack.sxsc.dpdns.org
+  sni: b.rack.sxsc.dpdns.org
+  skip-cert-verify: false
+  alpn:
+  - h3
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: b.rack.sxsc.dpdns.org
+- type: vless
+  name: CA加拿大(mibei77.com 米贝节点分享) (3)_3
+  server: 172.64.152.19
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  sni: jp3.yohototo.top
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- type: vless
+  name: CA加拿大(mibei77.com 米贝节点分享) (4)_3
+  server: 172.67.67.89
+  port: 443
+  uuid: 4859c235-2530-4062-9a0b-ea859cbbf861
+  udp: true
+  tls: true
+  servername: 1.proxy2.us.ci.
+  sni: 1.proxy2.us.ci.
+  skip-cert-verify: false
+  alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: 1.proxy2.us.ci.
+- type: trojan
+  name: CA加拿大(mibei77.com 米贝节点分享) (5)_3
+  server: www.wto.org
+  port: 8443
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  udp: true
+  tls: true
+  servername: jiangjc.pages.dev
+  sni: jiangjc.pages.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+- type: vless
+  name: CA加拿大(mibei77.com 米贝节点分享) (6)_3
+  server: 104.17.136.102
+  port: 2087
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  udp: true
+  tls: true
+  servername: rezanoori4295.pages.dev
+  sni: rezanoori4295.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rezanoori4295.pages.dev
+- type: ss
+  name: 意大利(mibei77.com 米贝节点分享)_3
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 意大利(mibei77.com 米贝节点分享) (2)_3
+  server: 202.50.253.81
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 意大利(mibei77.com 米贝节点分享) (3)_3
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 意大利(mibei77.com 米贝节点分享) (4)_3
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: ss
+  name: 意大利(mibei77.com 米贝节点分享) (5)_3
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  udp: true
+  tls: false
+  skip-cert-verify: false
+- type: vless
+  name: 西班牙(mibei77.com 米贝节点分享)_3
+  server: 196.196.148.76
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: 8a2e72t.nl20.h1clayd.shop
+  sni: 8a2e72t.nl20.h1clayd.shop
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA"
+    short-id: "8d0d0679f42ffd98"
+- type: vless
+  name: 西班牙(mibei77.com 米贝节点分享) (2)_3
+  server: 196.196.148.76
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: 8a2e72t.nl20.h1clayd.shop
+  sni: 8a2e72t.nl20.h1clayd.shop
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "VZS639V1i-35g7VXb9EoTYL-Srm7858sxcvFAunncmA"
+    short-id: "8d0d0679f42ffd98"
+- type: vless
+  name: 西班牙(mibei77.com 米贝节点分享) (3)_3
+  server: 196.245.52.187
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 04535dt.us8.h1clayd.click
+  sni: 04535dt.us8.h1clayd.click
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: "UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY"
+    short-id: "ba2a3dce62b99092"
+- type: vless
+  name: 西班牙(mibei77.com 米贝节点分享) (4)_3
+  server: cdn.8211992.xyz
+  port: 443
+  uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5
+  udp: true
+  tls: true
+  servername: mao.kipfelmao.de5.net
+  sni: mao.kipfelmao.de5.net
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /api/v1/guests/profiles/5de14443985f/
+    headers:
+      Host: mao.kipfelmao.de5.net
 - name: 🇺🇸US_100|657KB/s|P002-260618 [0002809537c4]
   password: None
   port: 9002
